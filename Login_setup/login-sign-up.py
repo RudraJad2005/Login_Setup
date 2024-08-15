@@ -7,7 +7,7 @@ from email_validator import validate_email, EmailNotValidError
 app = Flask(__name__)
 
 # MongoDB connection details (consider using environment variables for security)
-MONGO_URI = "mongodb://localhost:27017"
+MONGO_URI = "You host :)"
 DATABASE_NAME = "user_auth"
 
 # Connect to MongoDB
