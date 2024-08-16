@@ -27,7 +27,7 @@ def valid_email(email):
 
 def main():
     try:
-        client = pymongo.MongoClient("mongodb://localhost:27017", serverSelectionTimeoutMS=5000)
+        client = pymongo.MongoClient("you host :)", serverSelectionTimeoutMS=5000)
         db = client["test-database"]
         collections = db.userPassword
 
